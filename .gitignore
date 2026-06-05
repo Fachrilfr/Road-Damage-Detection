@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+
+# YOLO & Datasets
+dataset/
+Data/
+runs/
+*.pt
+*.onnx
+
+# Node / Frontend (additional safety)
+node_modules/
+dist/
+.env
+frontend/node_modules/
+frontend/dist/
+
+# IDE & OS files
+.vscode/
+.idea/
+.gemini/
+.DS_Store
+Thumbs.db
